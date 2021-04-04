@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 const filterHandler = (event, employees, changeHandler) => {
   const filterEmployees = employees.filter(employee => {
     const employeeNameLowerCase = employee.name.toLowerCase();
